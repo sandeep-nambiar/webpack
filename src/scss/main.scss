@@ -1,0 +1,30 @@
+// Custom.scss
+$font-stack: Helvetica, sans-serif;
+$primary-color: rgba(101, 154, 73, 0.98)333;
+$secondary-color:#424242;
+$third-color:#1f1f1f;
+$border-color:red;
+$heading-color:black;
+$heading-size:35px;
+$font-weight:900;
+
+// Option A: Include all of Bootstrap
+
+//@import "node_modules/bootstrap/scss/bootstrap";
+@import "~bootstrap/scss/bootstrap";
+
+// Custom.scss
+@import "src/scss/modules/_custom.scss";
+// Option B: Include parts of Bootstrap
+
+// Required
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+
+// Optional
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/type";
+@import "node_modules/bootstrap/scss/images";
+@import "node_modules/bootstrap/scss/code";
+@import "node_modules/bootstrap/scss/grid";

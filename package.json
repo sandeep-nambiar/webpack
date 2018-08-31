@@ -1,0 +1,39 @@
+{
+  "name": "ppifreecheck",
+  "version": "1.0.0",
+  "description": "landingpage",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch --progress"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.6",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "css-flip": "^0.5.0",
+    "css-loader": "^0.28.11",
+    "csso-cli": "^1.0.0",
+    "extract-loader": "^1.0.1",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "file-loader": "^0.11.2",
+    "node-sass": "^4.9.3",
+    "postcss-cli": "^4.1.0",
+    "postcss-loader": "^2.1.6",
+    "sass-loader": "^6.0.7",
+    "webpack": "^3.5.6"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "exports-loader": "^0.7.0",
+    "font-awesome": "^4.7.0",
+    "image-webpack-loader": "^4.3.1",
+    "images": "^3.0.1",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.4",
+    "style-loader": "^0.23.0"
+  }
+}
